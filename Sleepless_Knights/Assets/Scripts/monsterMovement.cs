@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// monster movement logic, makes the monster
+/// move in random directions.
+/// </summary>
 public class monsterMovement : MonoBehaviour
 {
     private float latestDirectionChangeTime;

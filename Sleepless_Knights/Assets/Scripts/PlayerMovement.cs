@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// player movement based on x and y inputs
+/// </summary>
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
