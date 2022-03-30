@@ -318,10 +318,11 @@ GameObject:
   m_Component:
   - component: {fileID: 556938018}
   - component: {fileID: 556938017}
-  - component: {fileID: 556938016}
+  - component: {fileID: 556938020}
+  - component: {fileID: 556938019}
   - component: {fileID: 556938015}
   m_Layer: 0
-  m_Name: treant-idle-front
+  m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,30 +337,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 556938014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26df1aef3689d410a836830612009203, type: 3}
+  m_Script: {fileID: 11500000, guid: 8443d257b64b445e5a6885f874dcded7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &556938016
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 556938014}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
+  speed: 0.5
+  attackDamage: 10
+  attackSpeed: 1
 --- !u!212 &556938017
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -419,12 +402,44 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556938014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.76, y: -0.08, z: 0}
-  m_LocalScale: {x: 1.3416, y: 1.5334756, z: 1}
+  m_LocalPosition: {x: 0.7855, y: -0.0946, z: 0}
+  m_LocalScale: {x: 1.5063484, y: 1.6168966, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &556938019
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556938014}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
+--- !u!58 &556938020
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556938014}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.75
 --- !u!1 &959975304
 GameObject:
   m_ObjectHideFlags: 0
@@ -29815,9 +29830,10 @@ GameObject:
   - component: {fileID: 1865644347}
   - component: {fileID: 1865644346}
   - component: {fileID: 1865644350}
+  - component: {fileID: 1865644351}
   m_Layer: 0
-  m_Name: hero-idle-front
-  m_TagString: Untagged
+  m_Name: player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29934,3 +29950,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af34843508e824cdea5762500a356391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!58 &1865644351
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865644345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.16

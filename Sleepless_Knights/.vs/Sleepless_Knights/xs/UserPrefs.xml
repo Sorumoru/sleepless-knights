@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{DAC73402-95F2-7F9B-E781-2ABE5AFF2956}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enemy.cs">
     <Files>
-      <File FileName="Assets/PlayerHealth.cs" Line="19" Column="1" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="6" Column="44" />
-      <File FileName="Assets/Scripts/monsterMovement.cs" Line="7" Column="31" />
+      <File FileName="Assets/Scripts/monsterMovement.cs" Line="48" Column="9" />
+      <File FileName="Assets/Scripts/PlayerHealth.cs" Line="19" Column="23" />
+      <File FileName="Assets/enemy.cs" Line="7" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Sleepless_Knights" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="PlayerHealth.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
