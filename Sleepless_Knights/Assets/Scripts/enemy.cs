@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// represents the enemey class
+/// represents the enemy class
 /// </summary>
 public class enemy : MonoBehaviour
 {
