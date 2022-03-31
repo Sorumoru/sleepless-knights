@@ -56316,8 +56316,8 @@ GameObject:
   - component: {fileID: 1865644348}
   - component: {fileID: 1865644347}
   - component: {fileID: 1865644346}
-  - component: {fileID: 1865644350}
   - component: {fileID: 1865644351}
+  - component: {fileID: 1865644350}
   m_Layer: 0
   m_Name: player
   m_TagString: Player

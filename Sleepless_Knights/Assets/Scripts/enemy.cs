@@ -34,13 +34,15 @@ public class enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            if(attackSpeed <= canAttack)
+            if(attackSpeed >= canAttack)
             {
+                Debug.Log("attacked");
                 collision.gameObject.GetComponent<PlayerHealth>().updateHealth(-attackDamage);
                 canAttack = 0f;
             }
             else
             {
+                Debug.Log("bug");
                 canAttack += Time.deltaTime;
             }
         }
