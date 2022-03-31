@@ -2936,3 +2936,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30673.080834 seconds.
+  path: Assets/Scripts/PlayerHealth.cs
+  artifactKey: Guid(af34843508e824cdea5762500a356391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerHealth.cs using Guid(af34843508e824cdea5762500a356391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a532fc97a7223d6271eca87b6ed223') in 0.026291 seconds 
+  Import took 0.044355 seconds .
+
