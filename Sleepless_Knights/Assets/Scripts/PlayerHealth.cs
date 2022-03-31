@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
     /// </summary>
     /// <param name="mod"></param>
     public void updateHealth(float mod){
+
         health+= mod;
         if(health > maxHealth){
             health = maxHealth;
