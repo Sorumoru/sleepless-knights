@@ -7,6 +7,9 @@ using UnityEngine;
 /// </summary>
 public class PlayerMovement : MonoBehaviour
 {
+
+    public Animator animator;
+
     public float moveSpeed = 5f;
 
     public Rigidbody2D body;
@@ -19,6 +22,9 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
 
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Magnitude", movement.magnitude);
     }
 
     private void FixedUpdate()
