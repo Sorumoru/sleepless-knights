@@ -13,11 +13,23 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
 
     public Rigidbody2D body;
+    [SerializeField] Transform hand;
 
     Vector2 movement;
 
     // Update is called once per frame
     void Update()
+    {
+        MovementInput();
+        RotateHand();
+    }
+
+    private void FixedUpdate()
+    {
+        body.MovePosition(body.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void MovementInput()
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
@@ -27,8 +39,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Magnitude", movement.magnitude);
     }
 
-    private void FixedUpdate()
+    void RotateHand()
     {
-        body.MovePosition(body.position + movement * moveSpeed * Time.fixedDeltaTime);
+        float angle = Utility.AngleTowardsMouse(hand.position);
+        hand.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
     }
 }
