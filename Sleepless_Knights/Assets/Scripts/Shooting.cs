@@ -24,6 +24,6 @@ public class Shooting : MonoBehaviour
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         float arrowSlowness = 10;
-        rb.AddForce(firePoint.up * bulletForce / arrowSpeed, ForceMode2D.Impulse);
+        rb.AddForce(firePoint.up * bulletForce / arrowSlowness, ForceMode2D.Impulse);
     }
 }
