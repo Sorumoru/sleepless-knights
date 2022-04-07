@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    //public GameObject hitEffect;
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+        //Destroy(effect, 5f);
+        Destroy(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    void DestroyObjectDelayed()
     {
-        
+        Destroy(gameObject, 1);
     }
 }
