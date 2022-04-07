@@ -20,14 +20,16 @@ public class enemy : MonoBehaviour
     private void Start(){
         health=maxHealth;
     }
+
     public void TakeDamage(float dmg){
         health -= dmg;
-        Debug.Log("Enemy Health: " + maxHealth);
+        Debug.Log("Enemy Health: " + health);
 
         if (health<=0 ){
-            Destroy (gameObject);
+            Destroy(gameObject);
         }
     }
+
     /// <summary>
     /// makes the enemy move towards the target player
     /// when trigger effect activates
