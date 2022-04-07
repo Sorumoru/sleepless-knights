@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
     private void Start(){
       
         health = maxHealth;
-        slider.maxValue = maxHealth;
+        // slider.maxValue = maxHealth;
     }
 
     /// <summary>
@@ -33,11 +33,11 @@ public class PlayerHealth : MonoBehaviour
 
         health+= mod;
         if(health > maxHealth){
-            health = maxHealth;
+            // health = maxHealth;
         }else if(health <= 0f)
         {
             health = 0f;
-            slider.value = health;
+            // slider.value = health;
             Debug.Log("player respawn");
             PlayerDied();
         }
@@ -45,7 +45,7 @@ public class PlayerHealth : MonoBehaviour
     }
         public void setHealth(){
         float t = Time.deltaTime /1f;
-        slider.value = Mathf.Lerp(slider.value,health,t);
+        // slider.value = Mathf.Lerp(slider.value,health,t);
 
         // fill.color = gradient.Evaluate(slider.normalizedValue);
     }

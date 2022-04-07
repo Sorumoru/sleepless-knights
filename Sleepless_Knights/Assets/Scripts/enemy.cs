@@ -13,6 +13,21 @@ public class enemy : MonoBehaviour
     [SerializeField] private float attackSpeed = 1f;
     private float canAttack; 
 
+    private float health = 0f;
+    [SerializeField] private float maxHealth = 100f;
+
+
+    private void Start(){
+        health=maxHealth;
+    }
+    public void TakeDamage(float dmg){
+        health -= dmg;
+        Debug.Log("Enemy Health: " + maxHealth);
+
+        if (health<=0 ){
+            Destroy (gameObject);
+        }
+    }
     /// <summary>
     /// makes the enemy move towards the target player
     /// when trigger effect activates

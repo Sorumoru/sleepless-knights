@@ -20,10 +20,14 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+       GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-
+        // float ArrowDamages = 10;
         float arrowSlowness = 10;
+        // bullet.ArrowDamage = ArrowDamages;
+
         rb.AddForce(firePoint.up * bulletForce / arrowSlowness, ForceMode2D.Impulse);
+        
     }
 }
