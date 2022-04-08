@@ -258,7 +258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00030136108, y: 0.0009765625}
+  m_AnchoredPosition: {x: 0.00030517578, y: 0.0009765625}
   m_SizeDelta: {x: 0, y: 1}
   m_Pivot: {x: 0.49999994, y: 0.5}
 --- !u!114 &117319992
@@ -400,8 +400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.12680817, y: 0.6072006}
-  m_SizeDelta: {x: -2.6716, y: -1.2144}
+  m_AnchoredPosition: {x: 0.60446167, y: 0.6072006}
+  m_SizeDelta: {x: -1.209, y: -1.214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338562671
 MonoBehaviour:
@@ -57454,7 +57454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  slider: {fileID: 0}
+  healthBar: {fileID: 1886451621}
 --- !u!58 &1865644351
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -57542,8 +57542,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -441.9, y: 246.9}
-  m_SizeDelta: {x: 51.999, y: 8.9993}
+  m_AnchoredPosition: {x: -736.7953, y: 341.0753}
+  m_SizeDelta: {x: 381.108, y: 27.651}
   m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!114 &1886451621
 MonoBehaviour:
@@ -57554,10 +57554,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886451619}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af34843508e824cdea5762500a356391, type: 3}
+  m_Script: {fileID: 11500000, guid: 358a0ff770eaa49ed8dcd316b88eeeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
   slider: {fileID: 1886451622}
 --- !u!114 &1886451622
 MonoBehaviour:
@@ -57598,15 +57597,15 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 338562670}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -57644,7 +57643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: -0.00000047683716}
+  m_AnchoredPosition: {x: -162.64, y: 0.60719}
   m_SizeDelta: {x: 13, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972183228
@@ -57776,7 +57775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  slider: {fileID: 0}
+  healthBar: {fileID: 0}
 --- !u!1001 &7495039086983966322
 PrefabInstance:
   m_ObjectHideFlags: 0
