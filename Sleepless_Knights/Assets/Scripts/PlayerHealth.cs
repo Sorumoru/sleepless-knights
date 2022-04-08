@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
     private void Start(){
       
         health = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        healthBar?.SetMaxHealth(maxHealth);
         
     }
 
@@ -33,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
         {
             health = 0f;
             Debug.Log("player respawn");
+   
             PlayerDied();
         }
 
