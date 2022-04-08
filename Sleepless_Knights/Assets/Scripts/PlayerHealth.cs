@@ -8,20 +8,14 @@ public class PlayerHealth : MonoBehaviour
     
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private Slider slider;
-    // public Gradient gradient;
-    // public Image fill;
-
-    // public void setMaxHealth(int health){
-    //     slider.maxValue = health;
-    //     slider.value = health;
-    //     fill.color = gradient.Evaluate(1f);
-    // }
+    public HealthBar healthBar;
+    
 
     private void Start(){
       
         health = maxHealth;
-        // slider.maxValue = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+        
     }
 
     /// <summary>
@@ -32,23 +26,18 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("update health called: " + health);
 
         health+= mod;
-        if(health > maxHealth){
-            // health = maxHealth;
+        healthBar.SetHealth(health);
+        if (health > maxHealth){
+            health = maxHealth;
         }else if(health <= 0f)
         {
             health = 0f;
-            // slider.value = health;
             Debug.Log("player respawn");
             PlayerDied();
         }
 
     }
-        public void setHealth(){
-        float t = Time.deltaTime /1f;
-        // slider.value = Mathf.Lerp(slider.value,health,t);
-
-        // fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
+        
     public void PlayerDied(){
         LevelManager.instance.GameOver();
         gameObject.SetActive(false);
