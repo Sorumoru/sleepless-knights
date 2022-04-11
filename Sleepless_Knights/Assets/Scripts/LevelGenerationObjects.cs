@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Class for spawning different enemies
+/// Class for generating different kinds of objects like
+/// Foliage, or other LevelGenerationObjects.
 /// </summary>
-public class RandomSpawner : MonoBehaviour
+public class LevelGenerationObjects : MonoBehaviour
 {
+
     public GameObject[] objects;
-    private int enemycount;
 
     /// <summary>
     /// Start is called before the first frame update.
-    /// Generates a random enemy in the spawnpoint.
+    /// Starts the level generation, instantiates random objects in
+    /// the list of GameObject.
     /// </summary>
     void Start()
     {
-        enemycount = objects.Length;
         int rand = Random.Range(0, objects.Length);
         Instantiate(objects[rand], transform.position, Quaternion.identity);
     }

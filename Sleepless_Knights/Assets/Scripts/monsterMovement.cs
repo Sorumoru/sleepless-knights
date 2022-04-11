@@ -14,13 +14,19 @@ public class monsterMovement : MonoBehaviour
     private Vector2 movementDirection;
     private Vector2 movementPerSecond;
 
-
+    /// <summary>
+    /// Start is called before the first frame update.
+    /// Starts the enemy movement.
+    /// </summary>
     void Start()
     {
         latestDirectionChangeTime = 0f;
         calcuateNewMovementVector();
     }
 
+    /// <summary>
+    /// Randomize the movement of the enemy.
+    /// </summary>
     void calcuateNewMovementVector()
     {
         //create a random direction vector with the magnitude of 1, later multiply it with the velocity of the enemy
@@ -28,6 +34,9 @@ public class monsterMovement : MonoBehaviour
         movementPerSecond = movementDirection * characterVelocity;
     }
 
+    /// <summary>
+    /// Moves the enemy.
+    /// </summary>
     void Update()
     {
         //if the changeTime was reached, calculate a new movement vector

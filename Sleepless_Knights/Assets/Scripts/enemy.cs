@@ -12,20 +12,29 @@ public class enemy : MonoBehaviour
     [SerializeField] private float attackDamage = 10f;
     [SerializeField] private float attackSpeed = 1f;
     private float canAttack; 
-
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
 
-
-    private void Start(){
-        health=maxHealth;
+    /// <summary>
+    /// Start is called before the first frame update.
+    /// Sets the health of the enemy.
+    /// </summary>
+    private void Start()
+    {
+        health = maxHealth;
     }
 
-    public void TakeDamage(float dmg){
+    /// <summary>
+    /// Method that calculates the enemy health when it takes damage.
+    /// </summary>
+    /// <param name="dmg">a float</param>
+    public void TakeDamage(float dmg)
+    {
         health -= dmg;
         Debug.Log("Enemy Health: " + health);
 
-        if (health<=0 ){
+        if (health<=0 )
+        {
             Destroy(gameObject);
         }
     }
@@ -42,6 +51,7 @@ public class enemy : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, target.position, step);
         }
     }
+
     /// <summary>
     /// performs attack damage to player health
     /// on collision at a attack speed rate.
@@ -69,7 +79,7 @@ public class enemy : MonoBehaviour
     /// When player object enters enemys radius
     /// a trigger effect will take place
     /// </summary>
-    /// <param name="collision"></param>
+    /// <param name="collision">a Collider2D</param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -84,7 +94,7 @@ public class enemy : MonoBehaviour
     /// when player exits the enemys radius
     /// the trigger effect will stop. 
     /// </summary>
-    /// <param name="collision"></param>
+    /// <param name="collision">a Collider2D</param>
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
