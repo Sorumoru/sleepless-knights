@@ -1,0 +1,1856 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &454591229828788404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3759734805303355608}
+  - component: {fileID: 6072362870762545859}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3759734805303355608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454591229828788404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.41, y: 1.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6072362870762545859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454591229828788404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &707688155196607578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6827037826297602531}
+  - component: {fileID: 4976862714841847253}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6827037826297602531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707688155196607578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.07, y: -0.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4976862714841847253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707688155196607578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &797786774299626939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8379195429131154575}
+  - component: {fileID: 899657678821040433}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8379195429131154575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797786774299626939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.37, y: 0.55, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &899657678821040433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797786774299626939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &1649298400206930810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3983613827004169601}
+  - component: {fileID: 6923276911529220148}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3983613827004169601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649298400206930810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.38, y: 0.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6923276911529220148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649298400206930810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &1665703941379667533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9062528896225676349}
+  - component: {fileID: 8542367751253217411}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9062528896225676349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665703941379667533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.56, y: 1.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8542367751253217411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665703941379667533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &2020247568327555947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248668614733573805}
+  - component: {fileID: 5527613221282473626}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248668614733573805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020247568327555947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5527613221282473626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020247568327555947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &2055060637570199859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686191178608548907}
+  - component: {fileID: 4704712243956258652}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1686191178608548907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055060637570199859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.87, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4704712243956258652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055060637570199859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &2218908069022564149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5219462471154410998}
+  - component: {fileID: 7921930897859476485}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5219462471154410998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2218908069022564149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.62, y: 1.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7921930897859476485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2218908069022564149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &2701402662898721042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8244609048588369592}
+  - component: {fileID: 4552044517080460844}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8244609048588369592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2701402662898721042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.63, y: -0.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4552044517080460844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2701402662898721042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &2879915876343971517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5729845689804224859}
+  - component: {fileID: 6929150650672453783}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5729845689804224859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2879915876343971517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.74, y: -1.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6929150650672453783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2879915876343971517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &3048536222034266250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6993493882138029810}
+  - component: {fileID: 3227326585451892177}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6993493882138029810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3048536222034266250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.54, y: -1.23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3227326585451892177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3048536222034266250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &3546803172181992393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7503692649873404677}
+  - component: {fileID: 99672604669534094}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7503692649873404677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546803172181992393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.88, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &99672604669534094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546803172181992393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &3694950070426703092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6024184572437935064}
+  - component: {fileID: 8357576761265806083}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6024184572437935064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3694950070426703092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.64, y: -0.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8357576761265806083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3694950070426703092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &3964558337591935740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8418731637236227085}
+  - component: {fileID: 5561233478333185197}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8418731637236227085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964558337591935740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.29, y: 0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5561233478333185197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964558337591935740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &4513992033827290996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6680322241780121524}
+  - component: {fileID: 4819960821841049815}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6680322241780121524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513992033827290996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.49, y: -1.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4819960821841049815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513992033827290996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &4718526364660379853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6253054390383874969}
+  m_Layer: 0
+  m_Name: FoliageTemplate02
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6253054390383874969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4718526364660379853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8698545, y: 1.3364227, z: -4.7014894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1686191178608548907}
+  - {fileID: 956377507637547697}
+  - {fileID: 248668614733573805}
+  - {fileID: 6024184572437935064}
+  - {fileID: 7503692649873404677}
+  - {fileID: 4524041545772610269}
+  - {fileID: 3288893423689393277}
+  - {fileID: 4655721985564988547}
+  - {fileID: 9039737052243242257}
+  - {fileID: 6827037826297602531}
+  - {fileID: 6741127973504966464}
+  - {fileID: 8102566971968342854}
+  - {fileID: 6993493882138029810}
+  - {fileID: 5729845689804224859}
+  - {fileID: 3983613827004169601}
+  - {fileID: 6112827611827801329}
+  - {fileID: 8379195429131154575}
+  - {fileID: 8891771849347535714}
+  - {fileID: 2566369050187060851}
+  - {fileID: 4949039756272602572}
+  - {fileID: 8244609048588369592}
+  - {fileID: 2975143746324411398}
+  - {fileID: 6680322241780121524}
+  - {fileID: 2933031048748014215}
+  - {fileID: 8418731637236227085}
+  - {fileID: 5219462471154410998}
+  - {fileID: 7393398667383951772}
+  - {fileID: 1546164705470605044}
+  - {fileID: 9062528896225676349}
+  - {fileID: 3759734805303355608}
+  - {fileID: 6677432702726338354}
+  - {fileID: 1880060662648510175}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4973075257146150090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3288893423689393277}
+  - component: {fileID: 6988240842736314104}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3288893423689393277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973075257146150090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3, y: -0.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6988240842736314104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973075257146150090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &5604689798067862463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4524041545772610269}
+  - component: {fileID: 8249115110392363579}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4524041545772610269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604689798067862463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.44, y: -1.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8249115110392363579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604689798067862463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &5848522686843195483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956377507637547697}
+  - component: {fileID: 2895888514266678691}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956377507637547697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5848522686843195483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.19, y: 0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2895888514266678691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5848522686843195483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &6006010730761742576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8102566971968342854}
+  - component: {fileID: 5718876810698051887}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8102566971968342854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006010730761742576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.42, y: -2.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5718876810698051887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006010730761742576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &6430526064143173458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7393398667383951772}
+  - component: {fileID: 3941937841093926643}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7393398667383951772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430526064143173458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.89, y: 1.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3941937841093926643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430526064143173458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &6561857153341781701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8891771849347535714}
+  - component: {fileID: 3830012358647056441}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8891771849347535714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561857153341781701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.43, y: 0.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3830012358647056441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561857153341781701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &7425886192869041089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4655721985564988547}
+  - component: {fileID: 43392174187180478}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655721985564988547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7425886192869041089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.64, y: 0.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43392174187180478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7425886192869041089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &7496093363239624246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6677432702726338354}
+  - component: {fileID: 8644925536348466283}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6677432702726338354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496093363239624246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.53, y: 0.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8644925536348466283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496093363239624246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &7599975925942349527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6741127973504966464}
+  - component: {fileID: 3340814725560914932}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6741127973504966464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7599975925942349527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.44, y: -0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3340814725560914932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7599975925942349527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &8541854514346388925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6112827611827801329}
+  - component: {fileID: 5616716729935301225}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6112827611827801329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8541854514346388925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.37, y: 0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5616716729935301225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8541854514346388925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &8544349162825692984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880060662648510175}
+  - component: {fileID: 6868653966913534901}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880060662648510175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544349162825692984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.83, y: -2.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6868653966913534901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544349162825692984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &8684381815985228957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2975143746324411398}
+  - component: {fileID: 4519652024099318283}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2975143746324411398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8684381815985228957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.67, y: 0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4519652024099318283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8684381815985228957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &8844411348201617034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2933031048748014215}
+  - component: {fileID: 9025473847654715157}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2933031048748014215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8844411348201617034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.41, y: -2.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9025473847654715157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8844411348201617034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &8855153713586701943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4949039756272602572}
+  - component: {fileID: 758590674713546974}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949039756272602572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855153713586701943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.89, y: 0.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758590674713546974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855153713586701943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &8870118549393708069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2566369050187060851}
+  - component: {fileID: 8633393030425513644}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2566369050187060851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870118549393708069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.35, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8633393030425513644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870118549393708069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &9126652721973052837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9039737052243242257}
+  - component: {fileID: 7859629070768018145}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9039737052243242257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9126652721973052837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.48, y: -2.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7859629070768018145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9126652721973052837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
+--- !u!1 &9173005505168058968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546164705470605044}
+  - component: {fileID: 254079865756608892}
+  m_Layer: 0
+  m_Name: FoliageSpawnpoint (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1546164705470605044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173005505168058968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.61, y: 1.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6253054390383874969}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &254079865756608892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173005505168058968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecef01f59dad84ab420fb06b9060be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1850372478002550999, guid: f2954e9a839d45b42b510654b01b4e1d, type: 3}
+  - {fileID: 3083640518806483708, guid: 21630907b00ba214da17b5066e288797, type: 3}
+  - {fileID: 188667957950365834, guid: 0b7c52a82342e884f817bc5a7a1c71f4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 92115860216746634, guid: 420b38b182659574db23bd6f8936e80e, type: 3}
+  - {fileID: 5288036431846021056, guid: 9931f4bf94d36cb4e84b317a62686fb4, type: 3}
+  - {fileID: 4953926852151163400, guid: eb810f97b930ff44c99ee96d7cf237ba, type: 3}
