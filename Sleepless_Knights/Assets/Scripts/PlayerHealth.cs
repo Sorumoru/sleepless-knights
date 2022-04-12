@@ -54,4 +54,10 @@ public class PlayerHealth : MonoBehaviour
         LevelManager.instance.GameOver();
         gameObject.SetActive(false);
     }
+
+    /// <summary>
+    /// Returns the player's current health.
+    /// </summary>
+    /// <returns>a float</returns>
+    public float getCurrentHealth() { return health; }
 }

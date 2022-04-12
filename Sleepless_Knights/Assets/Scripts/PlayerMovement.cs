@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D body;
     [SerializeField] Transform hand;
-    Vector2 movement;
+    public Vector2 movement;
 
     /// <summary>
     /// Update is called once per frame.
